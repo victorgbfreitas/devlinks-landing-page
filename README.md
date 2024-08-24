@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://github.com/victorgbfreitas/devlinks-landing-page)
+- [Acesse o projeto finalizado, online](https://victorgbfreitas.github.io/devlinks-landing-page/)
 
 - [Assistir aulas](https://www.rocketseat.com.br/discover)
 
