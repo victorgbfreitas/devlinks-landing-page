@@ -37,6 +37,7 @@ body * {
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
+  animation: fade-in 1s ease 0s 1 normal forwards;
 }
 
 #profile {
@@ -115,6 +116,7 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
+  animation: scale-up 1s;
 }
 
 #social-links {
@@ -168,5 +170,28 @@ footer {
   }
   to {
     left: 0;
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
