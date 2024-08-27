@@ -111,12 +111,13 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s;
+  transition: transform 0.5s ease;
 }
 
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
-  animation: scale-up 1s;
+  transform: scale(1.1);
 }
 
 #social-links {
@@ -170,17 +171,6 @@ footer {
   }
   to {
     left: 0;
-  }
-}
-
-@keyframes scale-up {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
   }
 }
 
